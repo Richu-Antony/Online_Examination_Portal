@@ -1,0 +1,354 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----------------------Header----------------------------*/
+#header
+{
+	background-image: url(images/i_bg.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	color: #fff!important;
+	text-shadow: 2px 2px 5px #DC143C;
+	font-size: 20px;
+}
+
+         /* effect-shine */
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+#logo-text
+{
+	color: #FFD700;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #FF0000;
+}
+
+#logo-img
+{
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+	outline: none!important;
+}
+
+nav .fa-bars
+{
+	color: #fff !important;
+	font-size: 26px;
+}
+
+/*-----------------------Welcome Text----------------------------*/
+.welcome
+{
+	padding: 50px 100px;
+	margin-top: -100px;
+	background-color: #FAFAD2;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1
+{
+	color: #483D8B;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+/*-----------------------About Us----------------------------*/
+#about-name
+{
+	color: #8A2BE2;
+}
+
+#about
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#about .col-md-6
+{
+	padding: 20px 10px;
+}
+
+#youtube-des
+{
+	color: green;
+
+}
+
+/*-----------------------Services----------------------------*/
+#services
+{
+	background-color: #FFF5EE;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#services .col-md-4
+{
+	padding: 20px;
+}
+
+#services .col-md-4 h4
+{
+	padding: 5px;
+}
+
+#services .col-md-4 img
+{
+	width: 60px;
+}
+
+#services .col-md-4 p
+{
+	padding: 5px;
+	text-align: justify;
+}
+
+/*-----------------------Features----------------------------*/
+#features
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/feature_background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+#features .col-md-6
+{
+	padding: 20px;
+}
+
+.feature-box
+{
+	height: 120px;
+}
+
+.feature-box .feature-left
+{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+
+.feature-box .feature-left .fa
+{
+	padding-top: 13px;
+	font-size: 50px;
+}
+
+.feature-box .feature-right h4
+{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.feature-box .feature-right p
+{
+	padding-left: 15px;
+	text-align: left;
+}
+
+/*---------------------Accounts----------------------------*/
+#account
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#account .col-md-4
+{
+	padding: 10px 30px;
+}
+
+#account img
+{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin-left: -30px;
+	margin-top: -40px;
+	border: 5px solid #fff;
+	margin-bottom: 30px;
+}
+
+.review
+{
+	font-size: 16px;
+	padding: 10px 10px 10px 30px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+#account span
+
+{
+	color: #FFD700;
+	font-weight: 600px;
+	font-size: 18px;
+}
+
+#account h1
+{
+	margin-bottom: 20px;
+	color: #FFD700;
+}
+
+#account p
+{
+	padding-bottom: 20px;
+}
+
+/*------------------------Footer----------------------------*/
+#footer
+{
+	margin-top: 30px;
+	
+	padding: 70px;
+	background-color: #efefef ;
+	color: #013f7e;
+}
+
+.footer-logo
+{
+	width: 140px;
+	height: 140px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.footer-logo-text
+{
+    color: black;
+	font-size: 150%;
+	font-weight: 900px;
+	text-shadow: 2px 2px 5px white;
+}
+
+#footer h1
+{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer p
+{
+	font-size: 12px;
+	text-align: left;
+}
+
+#footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 17px;
+}
+           /*-------------Contact------------*/
+#footer .fa-phone-square
+{
+    color: #228B22;
+	font-size: 17px;
+}
+
+#footer .fa-envelope
+{
+    color: #FA8072;
+	font-size: 17px;
+}
+
+#footer .fa-home
+{
+    color: #1E90FF;
+	font-size: 17px;
+}
+
+#footer .fa-building-o
+{
+    color: black;
+	font-size: 17px;
+}
+
+           /*-------------Follow us------------*/
+#footer .fa-facebook-official
+{
+    color: #3b5998;
+	font-size: 17px;
+}
+
+#footer .fa-youtube-play
+{
+    color: #FF0000;
+	font-size: 17px;
+}
+
+#footer .fa-linkedin
+{
+    color: #0e76a8;
+	font-size: 17px;
+}
+
+#footer .fa-twitter
+{
+    color: #00acee;
+	font-size: 17px;
+}
+
+#footer .fa-instagram
+{
+    color: #00acee;
+	font-size: 17px;
+}
+
+#footer hr
+{
+	margin-top: 10px;
+}
+
+#footer .fa-heart-o
+{
+	color: red;
+	font-size: 17px;
+}
+
+#footer .fa-copyright
+{
+	color: black;
+	font-size: 17px;
+}
+
+#footer .copyright
+{
+	margin-bottom: -20px;
+	text-align: center;
+	font-size: 15px;
+}

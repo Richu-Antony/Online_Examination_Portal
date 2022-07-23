@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----------------------Header----------------------------*/
+#header
+{
+	background-image: url(../IMAGES/Header.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	color: #fff!important;
+	text-shadow: 2px 2px 5px #DC143C;
+	font-size: 20px;
+}
+
+       /* effect-shine */
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+#logo-text
+{
+	color: #FFD700;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #FF0000;
+}
+
+#logo-img
+{
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+	outline: none!important;
+}
+
+nav .fa-bars
+{
+	color: #fff !important;
+	font-size: 26px;
+}
+
+/*---------------------Heading--------------------------*/
+#heading
+{
+	
+	background-image: url(../IMAGES/Heading.jpg);
+	background-color: #FAFAD2;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	background-size: cover;
+	background-position: center;
+}
+
+#heading h1
+{
+	text-shadow: 2px 2px 5px #FF0000;
+	color: #483D8B;
+}
+
+h1.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+/*-----------------Content---------------------*/
+.container h3
+{
+	background-image: url(../IMAGES/Form_b1.jpg);
+	background-size: cover;
+	background-position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	color: white!important;
+	font-size: 30px;
+}
+
+.p-4
+{
+	background-image: url(../IMAGES/Form_b2.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #dea304;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+	font-size: 20px!important;
+}
+
+.p-4 label
+{
+	color: white!important;
+}

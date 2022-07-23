@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.dark-mode 
+{
+  background-color: black;
+  color: white;
+}
+
+/*-----------------------Header----------------------------*/
+#header
+{
+	background-image: url(Images/Header.jpg);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#header .navbar-nav li a
+{
+	float: right;
+	color: #fff!important;
+	text-shadow: 2px 2px 5px #DC143C;
+	font-size: 20px;
+}
+
+    /* effect-shine */
+#header a.effect-shine:hover 
+{
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine 
+{
+  from 
+  {
+    -webkit-mask-position: 150%;
+  }
+  
+  to 
+  {
+    -webkit-mask-position: -50%;
+  }
+}
+
+#logo-text
+{
+	color: #FFD700;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #FF0000;
+}
+
+#logo-img
+{
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+	outline: none!important;
+}
+
+#header nav .fa-bars
+{
+	color: #fff !important;
+	font-size: 26px;
+}
+
+/*-----------------------Rating----------------------------*/
+#rating .heading 
+{
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+#rating .fa 
+{
+  font-size: 25px;
+}
+
+#rating .checked 
+{
+  color: orange;
+}
+
+/* Three column layout */
+#rating .side 
+{
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+#rating .middle 
+{
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+#rating .right 
+{
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+#rating .row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+#rating .bar-container 
+{
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+#rating .bar-5 
+{
+	width: 95%; height: 18px; 
+	background-color: #4CAF50;
+}
+
+#rating .bar-4 
+{
+	width: 80%; height: 18px; 
+	background-color: #2196F3;
+}
+
+#rating .bar-3 
+{
+	width: 60%; height: 18px; 
+	background-color: #00bcd4;
+}
+
+#rating .bar-2 
+{
+	width: 12%; height: 18px; 
+	background-color: #ff9800;
+}
+
+#rating .bar-1 
+{
+	width: 5%; height: 18px; 
+	background-color: #f44336;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) 
+{
+  .side, .middle 
+  {
+    width: 100%;
+  }
+  .right 
+  {
+    display: none;
+  }
+}
